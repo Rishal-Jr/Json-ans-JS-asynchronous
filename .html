@@ -1,0 +1,14 @@
+<html>
+    <head>
+        <title>Json data conversion</title>
+    </head>
+    <body>
+        <p id="result"></p>
+        <script>
+var myobjct={name:"Rishal",age:14,grade:9};
+var myjson=JSON.stringify(myobjct);
+var newobjct=JSON.parse(myjson);
+document.getElementById("result").innerHTML=newobjct.name;
+        </script>
+    </body>
+</html>
